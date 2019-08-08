@@ -76,11 +76,10 @@ Generation 2:
 ### Language Requirements
 
 * You should not be using RAJA or OpenMP for this assignment
-* You can use Python3, C/C++, or possibly Rust
+* You can use Python3, or C/C++
   * I still haven't determined what currently runs on the department's lab machines that you can use for initial testing of your code. I'm going to attempt to get Rust/Cargo installed so that's an option too. So this may change. I will be validating your assignment on the lab machines. 
   * If you use Python3 you need to provide a complete requirements.txt file so I can setup a virtualenv for your submission against what you expect it to have. 
   * If you use C or C++, you should include in your submission a Makefile that works on the lab machines to compile each of your variations accordingly. 
-  * If we are able use Rust on the lab machines, make sure you include your Cargo.toml along with your source code. 
   * You should not intermix languages as your comparisons won't be tied to the MPI communications and slicing differences only. 
 
 ## Submission
@@ -115,6 +114,12 @@ Your assignment will be evaluated in the following fashion:
 * 40 - correct implementaiton of game of life for 2 different slicing implementations
 * 30 - timing data/methodology 
 * 30 - conclusions/questions drawn from testing
+
+## Extra Credit
+
+For an extra 10 points of EC on this assignment. So not sure I'll be able to get the environment onto the lab machines; however, if it's possible reimplement your code in Rust and include the Rust implementations in your comparisons. How does Rust compare to your original implementations in scalability/speed/etc?
+
+Make sure to include your source, Cargo.toml, and any other details/files along with your source to compile/run your Rust implementation.
 
 
 
