@@ -90,7 +90,7 @@ You need to submit the following in a *tar.gz* to Tyson's Turnin System:
 * Source code for both implementations along with any files needed to run/make your source code
   * It's possible you might want to include Readme in addition to these files just in case you're worried about me compiling running it after submission. 
 * Lab report with the following:
-  * Well formatted, I would highly recommend potentially learning LaTeX and structuring your assignment report like an IEEE or ACM conference publication. 
+  * Well formatted, I would highly recommend potentially learning LaTeX and structuring your assignment report like an [IEEE](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Conference-LaTeX-template_7-9-18.zip) or [ACM](https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-master.zip) conference publication. 
   * How you went about timing your code runs
     * What tool did you use?
     * Why did you use this approach/tool?
