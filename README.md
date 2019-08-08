@@ -119,7 +119,7 @@ Your assignment will be evaluated in the following fashion:
 
 For an extra 10 points of EC on this assignment. So not sure I'll be able to get the environment onto the lab machines; however, if it's possible reimplement your code in Rust and include the Rust implementations in your comparisons. How does Rust compare to your original implementations in scalability/speed/etc?
 
-Make sure to include your source, Cargo.toml, and any other details/files along with your source to compile/run your Rust implementation.
+Make sure to include your source, Cargo.toml, and any other details/files along with your source to compile/run your Rust implementation. Rust is EC, due to the MPI bindings for Rust not being fully implemented as of the time of writing this assignment. 
 
 
 
