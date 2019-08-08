@@ -103,6 +103,10 @@ You need to submit the following in a *tar.gz* to Tyson's Turnin System:
   * How well do each of your implementations scale? 
   * Is there anything else you feel you answered?
   * What new questions did this create for you?
+  * Where did you do your testing? 
+    * I recommend you do your final testing on a Google HPC instance; however, if you do this somewhere else you need to account for that in your report
+    * What kind of system/architecture does your cluster have (processor type, cores per node, etc)
+    
   
 ## Evaluation
 
