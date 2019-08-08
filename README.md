@@ -108,9 +108,9 @@ You need to submit the following in a *tar.gz* to Tyson's Turnin System:
 
 Your assignment will be evaluated in the following fashion:
 
-40 - correct implementaiton of game of life for 2 different slicing implementations
-30 - timing data/methodology 
-30 - conclusions/questions drawn from testing
+* 40 - correct implementaiton of game of life for 2 different slicing implementations
+* 30 - timing data/methodology 
+* 30 - conclusions/questions drawn from testing
 
 
 
