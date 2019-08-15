@@ -117,9 +117,14 @@ Your assignment will be evaluated in the following fashion:
 
 ## Extra Credit
 
-For an extra 10 points of EC on this assignment. So not sure I'll be able to get the environment onto the lab machines; however, if it's possible reimplement your code in Rust and include the Rust implementations in your comparisons. How does Rust compare to your original implementations in scalability/speed/etc?
+* For an extra 10 points of EC on this assignment. So not sure I'll be able to get the environment onto the lab machines; however, if it's possible reimplement your code in Rust and include the Rust implementations in your comparisons. How does Rust compare to your original implementations in scalability/speed/etc?
 
-Make sure to include your source, Cargo.toml, and any other details/files along with your source to compile/run your Rust implementation. Rust is EC, due to the MPI bindings for Rust not being fully implemented as of the time of writing this assignment. 
+   * Make sure to include your source, Cargo.toml, and any other details/files along with your source to compile/run your Rust implementation. Rust is EC, due to the MPI bindings for Rust not being fully implemented as of the time of writing this assignment. 
+
+* For an extra 10 points of EC on this assignment you can do the following:
+   * 5 points implementing GPU acceleration via OpenMP on each of your MPI ranks handling of the life calculations
+      * If OpenMP GPU offloading isn't working/available will give an extra 10 points on top of this if you get raw CUDA programming to work instead here. 
+   * 5 perform performance metric measurements, document and include in your report information about this and performance speed up determinations. 
 
 
 
