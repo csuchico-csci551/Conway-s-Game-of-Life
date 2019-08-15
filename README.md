@@ -100,10 +100,14 @@ You need to submit the following in a *tar.gz* to Tyson's Turnin System:
     * Why did you test those grid sizes?
     * How many processors did you use as the grid size increased? 
   * How well do each of your implementations scale? 
+    * You can do this with pure MPI by: 
+      * running your code on the lab machines across a large number of nodes/processors
+      * scaling up on a Google HPC instance
+      * creating a larger cluster of Jetson nano boards
   * Is there anything else you feel you answered?
   * What new questions did this create for you?
   * Where did you do your testing? 
-    * I recommend you do your final testing on a Google HPC instance; however, if you do this somewhere else you need to account for that in your report
+    * I recommend you do your final testing on the Jetson Nano Cluster; however, if you do this somewhere else you need to account for that in your report
     * What kind of system/architecture does your cluster have (processor type, cores per node, etc)
     
   
@@ -115,6 +119,10 @@ Your assignment will be evaluated in the following fashion:
 * 30 - timing data/methodology 
 * 30 - conclusions/questions drawn from testing
 
+### Evaluation Platform Caveat
+
+I will be evaluating that your code works most likely on my Jetson nano cluster; however, if you used an alternative cluster make sure you document that. If your code does not compile/run/etc during grading you may be asked to demo your code working correctly during my office hours for credit on this assignment. 
+
 ## Extra Credit
 
 * For an extra 10 points of EC on this assignment. So not sure I'll be able to get the environment onto the lab machines; however, if it's possible reimplement your code in Rust and include the Rust implementations in your comparisons. How does Rust compare to your original implementations in scalability/speed/etc?
@@ -124,6 +132,7 @@ Your assignment will be evaluated in the following fashion:
 * For an extra 10 points of EC on this assignment you can do the following:
    * 5 points implementing GPU acceleration via OpenMP on each of your MPI ranks handling of the life calculations
       * If OpenMP GPU offloading isn't working/available will give an extra 10 points on top of this if you get raw CUDA programming to work instead here. 
+      * **Alternative GPU offloading** may be considered but get approval first. 
    * 5 perform performance metric measurements, document and include in your report information about this and performance speed up determinations. 
 
 
